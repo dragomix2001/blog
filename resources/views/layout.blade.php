@@ -2,13 +2,15 @@
 <html>
 <head>
     <title>Laravel</title>
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.6/css/bootstrap.min.css">
 
-    <link href="{{elixir('css/app.css')}}" rel="stylesheet" type="text/css">
 
 </head>
 <body>
 
-@yield('content')
+<div class="container">
+    @yield('content')
+</div>
 
 </body>
 </html>
